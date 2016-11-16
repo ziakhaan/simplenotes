@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:title="@string/backbuttoncontent"
+        android:summary="@string/backbuttonsummary"
+        android:key="@string/back_button" />
+    <ListPreference
+        android:defaultValue="1"
+        android:title="Font Size"
+        android:entries="@array/fontsize"
+        android:entryValues="@array/fontsize"
+        android:key="@string/fontsizekey" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:title="List View Height"
+        android:entries="@array/listViewHeight"
+        android:entryValues="@array/listViewHeight"
+        android:key="@string/listViewHeightkey" />
+
+
+
+</PreferenceScreen>

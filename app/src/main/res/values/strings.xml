@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Simple Notes</string>
+    <string name="addNote">Add Note</string>
+    <string name="title">Quick Notes</string>
+    <string name="delete">Delete</string>
+    <string name="backbuttonsummary">This will save the note on the press of the back button.</string>
+    <string name="backbuttoncontent">Back button Save</string>
+    <string name="settings">Settings</string>
+    <string name="back_button">back_button</string>
+    <string name="fontsizekey">FontSize</string>
+    <string name="listViewHeightkey">ListViewHeightKey</string>
+    <string name="trash">Trash</string>
+
+    <string-array name="fontsize">
+
+        <item name="small">Small</item>
+        <item name="medium">Medium</item>
+        <item name="large">Large</item>
+
+
+    </string-array>
+
+    <string-array name="listViewHeight">
+
+        <item name="small">Tiny</item>
+        <item name="medium">Medium</item>
+        <item name="large">Large</item>
+
+
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

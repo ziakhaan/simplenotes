@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PeachPuff"
+
+    >
+
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittoolbar"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:lines="1"
+            android:imeOptions="actionNext"
+            android:ellipsize="end"
+            android:inputType="text"
+
+            android:id="@+id/title"
+            android:padding="8dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:layout_gravity="center_horizontal" />
+
+    </android.support.v7.widget.Toolbar>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/black"
+    android:text="Created Date"
+    android:id="@+id/createdDate"
+
+    />
+
+
+
+    <com.random.simplenotes.LinedEditText
+        android:layout_width="match_parent"
+        android:layout_height="487dp"
+        android:inputType="textMultiLine"
+        android:id="@+id/customview"
+        android:textColor="@color/black"
+
+
+        android:hint="Enter here"
+        android:gravity="top|left"
+        />
+
+
+</LinearLayout>
